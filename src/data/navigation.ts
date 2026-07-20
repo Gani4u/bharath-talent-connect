@@ -1,31 +1,30 @@
-// Home, About, Services, Countries, Openings, Process, Contact
 export const navigation = [
   {
     title: "Home",
-    href: "#home",
+    href: "home",
   },
   {
     title: "About",
-    href: "#about",
+    href: "about",
   },
   {
-    title: "Services",
-    href: "#services",
+    title: "Hot Jobs",
+    href: "jobs",
   },
   {
     title: "Countries",
-    href: "#countries",
-  },
-  {
-    title: "Openings",
-    href: "#openings",
+    href: "countries",
   },
   {
     title: "Process",
-    href: "#process",
+    href: "process",
+  },
+  {
+    title: "Why Us",
+    href: "why",
   },
   {
     title: "Contact",
-    href: "#contact",
+    href: "contact",
   },
 ];

@@ -1,29 +1,115 @@
-import Container from './Container'
-import { site } from '@/constants/site'
+import logo from "@/assets/logos/btc-logo.png";
+import {
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border bg-card">
-      <Container className="py-12">
-        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+    <footer className="bg-slate-950 text-white">
+
+      <div className="mx-auto max-w-7xl px-6 py-16">
+
+        <div className="grid gap-10 md:grid-cols-3">
+
           <div>
-            <div className="text-lg font-semibold">{site.name}</div>
-            <div className="text-sm text-muted-foreground">
-              {site.tagline}
+
+            <img
+              src={logo}
+              alt="BTC"
+              className="mb-4 h-20"
+            />
+
+            <p className="text-slate-300 leading-7">
+
+              Bharath Talent Connect Consultancy connects
+              skilled professionals with trusted employers
+              across Africa, Gulf countries and Europe.
+
+            </p>
+
+          </div>
+
+          <div>
+
+            <h3 className="mb-5 text-xl font-semibold">
+              Contact
+            </h3>
+
+            <div className="space-y-4">
+
+              <div className="flex gap-3">
+
+                <Mail size={18} />
+
+                <span>
+                  bharattalentconnect@gmail.com
+                </span>
+
+              </div>
+
+              <div className="flex gap-3">
+
+                <Phone size={18} />
+
+                <a
+                  href="https://wa.me/917099214505"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-orange-400"
+                >
+                  +91 70992 14505
+                </a>
+
+              </div>
+
+              <div className="flex gap-3">
+
+                <MapPin size={18} />
+
+                <span>
+                  Rajasthan, India
+                </span>
+
+              </div>
+
             </div>
+
           </div>
 
-          <div className="text-sm text-muted-foreground">
-            <div>📍 Rajasthan, India</div>
-            <div>📧 {site.email}</div>
-            <div>📱 +91 70992 14505</div>
+          <div>
+
+            <h3 className="mb-5 text-xl font-semibold">
+              Countries
+            </h3>
+
+            <div className="grid grid-cols-2 gap-3 text-slate-300">
+
+              <span>Togo</span>
+              <span>Ghana</span>
+              <span>Nigeria</span>
+              <span>Kenya</span>
+              <span>Saudi Arabia</span>
+              <span>Qatar</span>
+              <span>Mali</span>
+              <span>Senegal</span>
+
+            </div>
+
           </div>
+
         </div>
 
-        <div className="mt-8 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-          {site.copyright}
+        <div className="mt-12 border-t border-slate-700 pt-6 text-center text-sm text-slate-400">
+
+          © {new Date().getFullYear()} Bharath Talent Connect Consultancy.
+          All Rights Reserved.
+
         </div>
-      </Container>
+
+      </div>
+
     </footer>
-  )
+  );
 }

@@ -128,3 +128,12 @@
     @apply font-sans;
     }
 }
+body {
+  background: linear-gradient(180deg,
+      #ffffff,
+      #f8fbff);
+}
+
+section:nth-child(even) {
+  background: #ffffff;
+}

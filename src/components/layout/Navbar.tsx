@@ -15,9 +15,11 @@ export default function Navbar() {
           className="cursor-pointer"
         >
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-primary-foreground font-bold">
-              BTC
-            </div>
+            <img
+            src="/src/assets/logos/btc-logo.png"
+            alt="Bharath Talent Connect"
+            className="h-12 w-12 object-contain"
+            />
             <div className="hidden sm:block">
               <div className="text-sm font-semibold leading-tight">
                 {site.name}
