@@ -1,7 +1,6 @@
 import {
   Globe,
   MapPin,
-  ArrowRight,
 } from "lucide-react";
 
 const countries = [

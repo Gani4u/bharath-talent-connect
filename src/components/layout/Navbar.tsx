@@ -3,6 +3,7 @@ import { navigation } from '@/data/navigation'
 import { site } from '@/constants/site'
 import { Button } from '@/components/ui/button'
 import { Link } from 'react-scroll'
+import logo from "@/assets/logos/btc-logo.png";
 
 export default function Navbar() {
   return (
@@ -16,7 +17,7 @@ export default function Navbar() {
         >
           <div className="flex items-center gap-3">
             <img
-            src="/src/assets/logos/btc-logo.png"
+            src={logo}
             alt="Bharath Talent Connect"
             className="h-12 w-12 object-contain"
             />
@@ -47,11 +48,15 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden lg:block">
-          <Button asChild className="rounded-full px-5">
-            <a href="https://wa.me/917099214505" target="_blank" rel="noreferrer">
+          <a
+            href="https://wa.me/917099214505"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button className="rounded-full px-5">
               Contact Us
-            </a>
-          </Button>
+            </Button>
+          </a>
         </div>
 
         <button

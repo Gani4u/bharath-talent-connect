@@ -53,20 +53,15 @@ export default function Hero() {
 
             </Button>
 
-            <Button
-              size="lg"
-              variant="outline"
-              className="rounded-full"
-              asChild
+            <a
+              href="https://wa.me/917099214505"
+              target="_blank"
+              rel="noreferrer"
             >
-              <a
-                href="https://wa.me/917099214505"
-                target="_blank"
-                rel="noreferrer"
-              >
-                WhatsApp Us
-              </a>
-            </Button>
+              <Button className="rounded-full px-5">
+                Whatsapp Us
+              </Button>
+            </a>
 
           </div>
 

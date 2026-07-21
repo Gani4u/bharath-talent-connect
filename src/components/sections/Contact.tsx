@@ -2,7 +2,6 @@ import {
   Mail,
   MapPin,
   Phone,
-  ArrowRight,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -82,22 +81,15 @@ export default function Contact() {
 
         <div className="mt-16 text-center">
 
-          <Button
-            size="lg"
-            className="rounded-full bg-orange-500 hover:bg-orange-600"
-            asChild
+          <a
+            href="https://wa.me/917099214505"
+            target="_blank"
+            rel="noreferrer"
           >
-            <a
-              href="https://wa.me/917099214505"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Contact on WhatsApp
-
-              <ArrowRight className="ml-2 h-4 w-4"/>
-
-            </a>
-          </Button>
+            <Button className="rounded-full px-5">
+              Contact On Whatsapp
+            </Button>
+          </a>
 
         </div>
 

@@ -1,7 +1,5 @@
-import { Button } from "@/components/ui/button";
 import {
   BriefcaseBusiness,
-  ArrowUpRight,
 } from "lucide-react";
 
 const jobs = [
