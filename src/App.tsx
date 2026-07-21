@@ -8,6 +8,7 @@ import Countries from "./components/sections/Countries";
 import Process from "./components/sections/Process";
 import WhyChoose from "./components/sections/WhyChoose";
 import Contact from "./components/sections/Contact";
+import { FloatingWhatsApp } from "./components/common/FloatingWhatsApp";
 
 function App() {
   return (
@@ -15,9 +16,7 @@ function App() {
       <Navbar />
 
       <main>
-
         <Hero />
-
         <About />
         <Openings />
         <Countries />
@@ -26,6 +25,9 @@ function App() {
         <Contact />
       </main>
       <Footer />
+
+      {/* Floating WhatsApp overlay */}
+      <FloatingWhatsApp />
     </>
   );
 }
