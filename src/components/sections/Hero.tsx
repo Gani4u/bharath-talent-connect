@@ -5,6 +5,11 @@ import {
   Globe,
   BriefcaseBusiness,
   Users,
+  Wrench,
+  Boxes,
+  Store,
+  ShieldCheck,
+  Handshake
 } from "lucide-react";
 
 export default function Hero() {
@@ -109,20 +114,92 @@ export default function Hero() {
 
         {/* RIGHT */}
 
+       {/* RIGHT */}
         <div className="hidden w-1/2 items-center justify-center lg:flex">
+          <div className="relative w-full max-w-md rounded-[2rem] border border-white bg-white/70 p-6 shadow-2xl backdrop-blur-xl">
+            
+            {/* Header */}
+            <div className="mb-6 flex items-center gap-2">
+              <span className="h-2.5 w-2.5 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></span>
+              <span className="text-xs font-bold tracking-widest text-slate-500">
+                HOT JOBS
+              </span>
+            </div>
 
-          <div className="relative">
+            {/* Jobs List */}
+            <div className="space-y-4">
+              {/* Job 1 */}
+              <div className="flex cursor-pointer items-center justify-between rounded-2xl border border-gray-50 bg-white p-4 shadow-sm transition-all hover:shadow-md">
+                <div className="flex items-center gap-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                    <Wrench className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-slate-900">
+                      Mechanic (Trucks & Forklifts)
+                    </h4>
+                    <p className="text-xs text-slate-500">Overseas placement</p>
+                  </div>
+                </div>
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-900 text-white transition-transform hover:scale-105">
+                  <ArrowRight className="h-4 w-4" />
+                </div>
+              </div>
 
-            <div className="absolute inset-0 rounded-full bg-blue-300 blur-3xl opacity-30"></div>
+              {/* Job 2 */}
+              <div className="flex cursor-pointer items-center justify-between rounded-2xl border border-gray-50 bg-white p-4 shadow-sm transition-all hover:shadow-md">
+                <div className="flex items-center gap-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                    <Boxes className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-slate-900">
+                      Warehouse Staff
+                    </h4>
+                    <p className="text-xs text-slate-500">Overseas placement</p>
+                  </div>
+                </div>
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-900 text-white transition-transform hover:scale-105">
+                  <ArrowRight className="h-4 w-4" />
+                </div>
+              </div>
 
-            <img
-              src={logo}
-              alt="BTC Logo"
-              className="relative w-[360px] drop-shadow-2xl"
-            />
+              {/* Job 3 */}
+              <div className="flex cursor-pointer items-center justify-between rounded-2xl border border-gray-50 bg-white p-4 shadow-sm transition-all hover:shadow-md">
+                <div className="flex items-center gap-4">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                    <Store className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-bold text-slate-900">
+                      Store Manager
+                    </h4>
+                    <p className="text-xs text-slate-500">Overseas placement</p>
+                  </div>
+                </div>
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-900 text-white transition-transform hover:scale-105">
+                  <ArrowRight className="h-4 w-4" />
+                </div>
+              </div>
+            </div>
+
+            {/* Footer Badges */}
+            <div className="mt-6 flex items-center justify-between rounded-2xl bg-slate-50/80 p-4">
+              <div className="flex w-1/3 flex-col items-center justify-center gap-1 border-r border-gray-200">
+                <ShieldCheck className="h-5 w-5 text-blue-600" />
+                <span className="text-xs font-medium text-slate-600">Trusted</span>
+              </div>
+              <div className="flex w-1/3 flex-col items-center justify-center gap-1 border-r border-gray-200">
+                <Handshake className="h-5 w-5 text-blue-600" />
+                <span className="text-xs font-medium text-slate-600">Verified</span>
+              </div>
+              <div className="flex w-1/3 flex-col items-center justify-center gap-1">
+                <Globe className="h-5 w-5 text-blue-600" />
+                <span className="text-xs font-medium text-slate-600">Global</span>
+              </div>
+            </div>
 
           </div>
-
         </div>
 
       </div>
