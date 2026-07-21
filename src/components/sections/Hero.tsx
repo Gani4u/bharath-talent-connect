@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logos/btc-logo.png";
 import {
   ArrowRight,
   Globe,
