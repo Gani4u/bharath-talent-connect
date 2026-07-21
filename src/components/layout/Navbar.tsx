@@ -3,7 +3,7 @@ import { navigation } from '@/data/navigation'
 import { site } from '@/constants/site'
 import { Button } from '@/components/ui/button'
 import { Link } from 'react-scroll'
-import logo from "@/assets/logos/btc-logo.png";
+import logo from "../../assets/logos/btc-logo.png";
 
 export default function Navbar() {
   return (
