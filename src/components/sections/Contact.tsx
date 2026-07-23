@@ -44,7 +44,7 @@ export default function Contact() {
             </h3>
 
             <p className="mt-3 text-slate-300">
-              +91 70992 14505
+              +91 70992 14505 / +91 9106912718
             </p>
 
           </div>

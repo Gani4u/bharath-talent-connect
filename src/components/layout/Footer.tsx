@@ -59,7 +59,7 @@ export default function Footer() {
                   rel="noreferrer"
                   className="hover:text-orange-400"
                 >
-                  +91 70992 14505
+                  +91 70992 14505 / +91 9106912718
                 </a>
 
               </div>
