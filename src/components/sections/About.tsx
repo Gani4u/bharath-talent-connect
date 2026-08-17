@@ -37,7 +37,7 @@ export default function About() {
 
         <div className="mx-auto max-w-3xl text-center">
 
-          <span className="text-blue-700 font-semibold uppercase tracking-widest">
+          <span className="text-primary font-semibold uppercase tracking-widest">
             About Us
           </span>
 
@@ -64,8 +64,8 @@ export default function About() {
                 key={item.title}
                 className="rounded-3xl border bg-white p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-xl"
               >
-                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-blue-100">
-                  <Icon className="h-7 w-7 text-blue-700" />
+                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
+                  <Icon className="h-7 w-7 text-primary" />
                 </div>
 
                 <h3 className="mb-3 text-xl font-semibold">

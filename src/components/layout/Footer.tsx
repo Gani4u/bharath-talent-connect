@@ -57,9 +57,9 @@ export default function Footer() {
                   href="https://wa.me/917099214505"
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:text-orange-400"
+                  className="hover:text-secondary transition-colors"
                 >
-                  +91 70992 14505 / +91 9106912718
+                  +91 70992 14505
                 </a>
 
               </div>

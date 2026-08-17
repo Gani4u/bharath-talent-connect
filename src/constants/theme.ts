@@ -1,10 +1,10 @@
 // Colors, Shadows, Radius, Container Width, Spacing, Animations
 export const theme = {
   colors: {
-    primary: "#0B3D91",
+    primary: "#034E8A",     // Logo Deep Blue
     primaryLight: "#2563EB",
 
-    secondary: "#22C55E",
+    secondary: "#F87005",   // Logo Orange
 
     background: "#F8FAFC",
 
@@ -16,7 +16,7 @@ export const theme = {
 
     border: "#E5E7EB",
 
-    accent: "#F59E0B",
+    accent: "#F87005",
   },
 
   container: "max-w-7xl mx-auto px-6 lg:px-8",

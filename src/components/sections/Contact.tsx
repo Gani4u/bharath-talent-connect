@@ -10,15 +10,15 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-gradient-to-br from-blue-900 via-slate-900 to-black py-28"
+      className="relative overflow-hidden bg-gradient-to-br from-primary via-slate-900 to-black py-28"
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.2),transparent_40%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(3,78,138,0.25),transparent_40%)]" />
 
       <div className="relative mx-auto max-w-7xl px-6">
 
         <div className="text-center">
 
-          <span className="rounded-full bg-white/10 px-5 py-2 text-blue-300">
+          <span className="rounded-full bg-white/10 px-5 py-2 text-secondary">
             Contact BTC
           </span>
 
@@ -37,21 +37,21 @@ export default function Contact() {
 
           <div className="rounded-3xl bg-white/5 p-8 backdrop-blur">
 
-            <Phone className="mb-5 text-orange-400" size={34} />
+            <Phone className="mb-5 text-secondary" size={34} />
 
             <h3 className="text-xl font-bold text-white">
               Call / WhatsApp
             </h3>
 
             <p className="mt-3 text-slate-300">
-              +91 70992 14505 / +91 9106912718
+              +91 70992 14505
             </p>
 
           </div>
 
           <div className="rounded-3xl bg-white/5 p-8 backdrop-blur">
 
-            <Mail className="mb-5 text-orange-400" size={34} />
+            <Mail className="mb-5 text-secondary" size={34} />
 
             <h3 className="text-xl font-bold text-white">
               Email
@@ -65,7 +65,7 @@ export default function Contact() {
 
           <div className="rounded-3xl bg-white/5 p-8 backdrop-blur">
 
-            <MapPin className="mb-5 text-orange-400" size={34} />
+            <MapPin className="mb-5 text-secondary" size={34} />
 
             <h3 className="text-xl font-bold text-white">
               Headquarters
@@ -86,7 +86,7 @@ export default function Contact() {
             target="_blank"
             rel="noreferrer"
           >
-            <Button className="flex items-center gap-2 rounded-full px-5">
+            <Button className="flex items-center gap-2 rounded-full px-5 bg-primary text-primary-foreground hover:bg-primary/95">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

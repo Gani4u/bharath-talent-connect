@@ -4,19 +4,19 @@ import {
 
 const jobs = [
   {
-    title: "Truck Mechanic",
+    title: "Core Odoo Developer",
+    openings: "2 Openings",
+  },
+  {
+    title: "Production Manager",
     openings: "5 Openings",
   },
   {
-    title: "Forklift Mechanic",
-    openings: "5 Openings",
-  },
-  {
-    title: "Warehouse Worker",
+    title: "Chartered Accountant",
     openings: "Hiring Now",
   },
   {
-    title: "Store Manager",
+    title: "Civil Engineer",
     openings: "Urgent Requirement",
   },
 ];
@@ -31,7 +31,7 @@ export default function Openings() {
 
         <div className="text-center">
 
-          <span className="font-semibold uppercase tracking-widest text-blue-700">
+          <span className="font-semibold uppercase tracking-widest text-primary">
             Hot Jobs
           </span>
 
@@ -55,9 +55,9 @@ export default function Openings() {
               className="rounded-3xl border bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl"
             >
 
-              <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-blue-100">
+              <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
 
-                <BriefcaseBusiness className="h-7 w-7 text-blue-700" />
+                <BriefcaseBusiness className="h-7 w-7 text-primary" />
 
               </div>
 

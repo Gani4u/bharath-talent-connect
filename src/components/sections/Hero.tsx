@@ -23,7 +23,7 @@ export default function Hero() {
 
         <div className="w-full lg:w-1/2">
 
-          <div className="mb-6 inline-flex items-center rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
+          <div className="mb-6 inline-flex items-center rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary">
             Trusted by 10+ International Employers
           </div>
 
@@ -31,7 +31,7 @@ export default function Hero() {
 
             Connecting Skilled Indian Talent
 
-            <span className="block bg-gradient-to-r from-blue-700 to-orange-500 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               with Global Career Opportunities
             </span>
 
@@ -49,7 +49,7 @@ export default function Hero() {
 
             <Button
               size="lg"
-              className="rounded-full bg-blue-700 hover:bg-blue-800"
+              className="rounded-full bg-primary text-primary-foreground hover:bg-primary/95"
             >
               Explore Hot Jobs
 
@@ -73,7 +73,7 @@ export default function Hero() {
 
             <div className="rounded-2xl bg-white p-5 shadow-lg">
 
-              <Users className="mb-3 h-8 w-8 text-blue-700" />
+              <Users className="mb-3 h-8 w-8 text-primary" />
 
               <h3 className="text-2xl font-bold">10+</h3>
 
@@ -85,7 +85,7 @@ export default function Hero() {
 
             <div className="rounded-2xl bg-white p-5 shadow-lg">
 
-              <BriefcaseBusiness className="mb-3 h-8 w-8 text-orange-500" />
+              <BriefcaseBusiness className="mb-3 h-8 w-8 text-secondary" />
 
               <h3 className="text-2xl font-bold">50+</h3>
 
@@ -97,7 +97,7 @@ export default function Hero() {
 
             <div className="rounded-2xl bg-white p-5 shadow-lg">
 
-              <Globe className="mb-3 h-8 w-8 text-green-600" />
+              <Globe className="mb-3 h-8 w-8 text-primary" />
 
               <h3 className="text-2xl font-bold">8+</h3>
 
@@ -119,7 +119,7 @@ export default function Hero() {
             
             {/* Header */}
             <div className="mb-6 flex items-center gap-2">
-              <span className="h-2.5 w-2.5 rounded-full bg-orange-500 shadow-[0_0_8px_rgba(249,115,22,0.8)]"></span>
+              <span className="h-2.5 w-2.5 rounded-full bg-secondary shadow-[0_0_8px_rgba(248,112,5,0.6)]"></span>
               <span className="text-xs font-bold tracking-widest text-slate-500">
                 HOT JOBS
               </span>
@@ -130,17 +130,17 @@ export default function Hero() {
               {/* Job 1 */}
               <div className="flex cursor-pointer items-center justify-between rounded-2xl border border-gray-50 bg-white p-4 shadow-sm transition-all hover:shadow-md">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
                     <Wrench className="h-5 w-5" />
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-slate-900">
-                      Mechanic (Trucks & Forklifts)
+                      Core Odoo Developer
                     </h4>
                     <p className="text-xs text-slate-500">Overseas placement</p>
                   </div>
                 </div>
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-900 text-white transition-transform hover:scale-105">
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground transition-transform hover:scale-105">
                   <ArrowRight className="h-4 w-4" />
                 </div>
               </div>
@@ -148,17 +148,17 @@ export default function Hero() {
               {/* Job 2 */}
               <div className="flex cursor-pointer items-center justify-between rounded-2xl border border-gray-50 bg-white p-4 shadow-sm transition-all hover:shadow-md">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
                     <Boxes className="h-5 w-5" />
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-slate-900">
-                      Warehouse Staff
+                      Chartered Accountant
                     </h4>
                     <p className="text-xs text-slate-500">Overseas placement</p>
                   </div>
                 </div>
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-900 text-white transition-transform hover:scale-105">
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground transition-transform hover:scale-105">
                   <ArrowRight className="h-4 w-4" />
                 </div>
               </div>
@@ -166,17 +166,17 @@ export default function Hero() {
               {/* Job 3 */}
               <div className="flex cursor-pointer items-center justify-between rounded-2xl border border-gray-50 bg-white p-4 shadow-sm transition-all hover:shadow-md">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-blue-600">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
                     <Store className="h-5 w-5" />
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-slate-900">
-                      Store Manager
+                      E-Commerce Sales Manager
                     </h4>
                     <p className="text-xs text-slate-500">Overseas placement</p>
                   </div>
                 </div>
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-900 text-white transition-transform hover:scale-105">
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground transition-transform hover:scale-105">
                   <ArrowRight className="h-4 w-4" />
                 </div>
               </div>
@@ -185,15 +185,15 @@ export default function Hero() {
             {/* Footer Badges */}
             <div className="mt-6 flex items-center justify-between rounded-2xl bg-slate-50/80 p-4">
               <div className="flex w-1/3 flex-col items-center justify-center gap-1 border-r border-gray-200">
-                <ShieldCheck className="h-5 w-5 text-blue-600" />
+                <ShieldCheck className="h-5 w-5 text-primary" />
                 <span className="text-xs font-medium text-slate-600">Trusted</span>
               </div>
               <div className="flex w-1/3 flex-col items-center justify-center gap-1 border-r border-gray-200">
-                <Handshake className="h-5 w-5 text-blue-600" />
+                <Handshake className="h-5 w-5 text-primary" />
                 <span className="text-xs font-medium text-slate-600">Verified</span>
               </div>
               <div className="flex w-1/3 flex-col items-center justify-center gap-1">
-                <Globe className="h-5 w-5 text-blue-600" />
+                <Globe className="h-5 w-5 text-primary" />
                 <span className="text-xs font-medium text-slate-600">Global</span>
               </div>
             </div>

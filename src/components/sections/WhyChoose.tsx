@@ -50,7 +50,7 @@ export default function WhyChoose() {
 
         <div className="text-center">
 
-          <span className="rounded-full bg-blue-100 px-5 py-2 font-medium text-blue-700">
+          <span className="rounded-full bg-primary/10 px-5 py-2 font-medium text-primary">
             Why Choose Us
           </span>
 
@@ -75,7 +75,7 @@ export default function WhyChoose() {
               className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
             >
 
-              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-r from-blue-700 to-orange-500 text-white">
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-r from-primary to-secondary text-white">
 
                 <item.icon size={30} />
 

@@ -42,7 +42,7 @@ export default function Process() {
 
         <div className="text-center">
 
-          <span className="rounded-full bg-orange-100 px-5 py-2 font-medium text-orange-600">
+          <span className="rounded-full bg-secondary/15 px-5 py-2 font-medium text-secondary">
             Recruitment Process
           </span>
 
@@ -59,7 +59,7 @@ export default function Process() {
 
         <div className="relative mt-20">
 
-          <div className="absolute left-0 top-16 hidden h-1 w-full bg-gradient-to-r from-blue-600 to-orange-500 lg:block" />
+          <div className="absolute left-0 top-16 hidden h-1 w-full bg-gradient-to-r from-primary to-secondary lg:block" />
 
           <div className="grid gap-8 lg:grid-cols-4">
 
@@ -68,7 +68,7 @@ export default function Process() {
                 key={step.title}
                 className="relative rounded-3xl border border-slate-200 bg-white p-8 shadow-lg transition hover:-translate-y-2 hover:shadow-2xl"
               >
-                <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-orange-500 text-white">
+                <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary text-white">
 
                   <step.icon size={36} />
 
