@@ -2,9 +2,87 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/public/imresizer-btc-logo.jpg" />
+    <!-- SPA Redirect Script (GitHub Pages compatibility) -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&') 
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bharath-talent-connect</title>
+    <meta
+      name="description"
+      content="Bharat Talent Connect Consultancy provides international recruitment, staffing, and talent acquisition services. Connecting Indian professionals with global opportunities."
+    />
+    <meta
+      name="keywords"
+      content="Bharat Talent Connect, recruitment consultancy India, staffing consultancy India, recruitment agency India, global hiring, manpower recruitment, job consultancy India"
+    />
+    <meta name="author" content="Bharat Talent Connect Consultancy" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="msvalidate.01" content="BING_VERIFICATION_KEY_HERE" />
+    <link rel="canonical" href="https://btcconsulting.in/" />
+    
+    <!-- Preconnect for Fonts (Performance Optimization) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="/imresizer-btc-logo.jpg" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Bharat Talent Connect Consultancy | Global Recruitment & Staffing" />
+    <meta
+      property="og:description"
+      content="Connecting skilled Indian professionals with verified international employers across Africa, the Gulf, and Europe."
+    />
+    <meta property="og:url" content="https://btcconsulting.in/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://btcconsulting.in/imresizer-btc-logo.jpg" />
+    <meta property="og:site_name" content="Bharat Talent Connect Consultancy" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bharat Talent Connect Consultancy" />
+    <meta
+      name="twitter:description"
+      content="International recruitment, staffing, and talent acquisition services for employers and job seekers."
+    />
+    <meta name="twitter:image" content="https://btcconsulting.in/imresizer-btc-logo.jpg" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bharat Talent Connect Consultancy",
+        "url": "https://btcconsulting.in/",
+        "logo": "https://btcconsulting.in/imresizer-btc-logo.jpg",
+        "description": "Recruitment, staffing, and talent acquisition consultancy connecting businesses with skilled Indian professionals and candidates with international career opportunities.",
+        "email": "contact@bharathtalentconnect.com",
+        "sameAs": [
+          "https://www.linkedin.com/company/bharat-talent-connect-consultancy",
+          "https://www.facebook.com/bharattalentconnect",
+          "https://www.instagram.com/bharattalentconnect"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-70992-14505",
+          "contactType": "customer service",
+          "areaServed": "IN",
+          "availableLanguage": ["en", "hi"]
+        }
+      }
+    </script>
+    <title>
+      Bharat Talent Connect Consultancy | Global Recruitment & Staffing Services
+    </title>
   </head>
   <body>
     <div id="root"></div>
