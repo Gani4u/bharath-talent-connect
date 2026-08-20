@@ -17,8 +17,11 @@ export default function Footer() {
 
             <img
               src={logo}
-              alt="BTC"
-              className="mb-4 h-20"
+              alt="Bharat Talent Connect Consultancy Logo"
+              className="mb-4 h-20 object-contain"
+              loading="lazy"
+              width="80"
+              height="80"
             />
 
             <p className="text-slate-300 leading-7">

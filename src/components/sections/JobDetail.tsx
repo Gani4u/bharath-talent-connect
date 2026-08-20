@@ -1,5 +1,6 @@
 import { ArrowLeft, Briefcase, Calendar, MapPin, ShieldCheck, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import PageSEO from "@/components/common/PageSEO";
 
 interface JobDetailItem {
   profile: string;
@@ -257,8 +258,80 @@ export default function JobDetail({ jobId }: JobDetailProps) {
     `Hi, I am interested in applying for the ${job.title} roles (such as ${job.subRoles[0].profile} for ${job.subRoles[0].company}) at Bharat Talent Connect. Please guide me.`
   );
 
+  const canonicalUrl = `https://btcconsulting.in/jobs/${normalizedId}`;
+  
+  // 1. Breadcrumbs Schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://btcconsulting.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Jobs",
+        "item": "https://btcconsulting.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": job.title,
+        "item": canonicalUrl
+      }
+    ]
+  };
+
+  // 2. JobPosting Schema
+  const countryMap: Record<string, string> = {
+    "retail-management": "Saudi Arabia",
+    "sales-marketing": "Qatar",
+    "mechanic-technical": "Togo",
+    "engineering-operations": "Togo",
+    "office-admin": "Saudi Arabia",
+    "it-software": "Togo"
+  };
+  
+  const countryName = countryMap[normalizedId] || "India";
+
+  const jobPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": job.title,
+    "description": `${job.description} Key Responsibilities include: ${job.responsibilities.join(". ")}`,
+    "datePosted": "2026-08-18",
+    "validThrough": "2027-08-18",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Bharat Talent Connect Consultancy",
+      "sameAs": "https://btcconsulting.in/",
+      "logo": "https://btcconsulting.in/imresizer-btc-logo.jpg"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": countryName,
+        "addressLocality": job.location
+      }
+    }
+  };
+
+  const schemas = [breadcrumbSchema, jobPostingSchema];
+
   return (
     <div className="bg-slate-50 py-16 text-foreground min-h-[85vh]">
+      <PageSEO
+        title={`${job.title} Jobs Abroad | BTC Consulting`}
+        description={`Apply for ${job.title} opportunities. ${job.description}`}
+        canonicalPath={`/jobs/${normalizedId}`}
+        structuredData={schemas}
+      />
       <div className="mx-auto max-w-4xl px-6">
         
         {/* Back navigation */}

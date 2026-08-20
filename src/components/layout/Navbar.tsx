@@ -17,9 +17,12 @@ export default function Navbar() {
         >
           <div className="flex items-center gap-3">
             <img
-            src={logo}
-            alt="Bharath Talent Connect"
-            className="h-12 w-12 object-contain"
+              src={logo}
+              alt="Bharat Talent Connect Consultancy Logo"
+              className="h-12 w-12 object-contain"
+              loading="eager"
+              width="48"
+              height="48"
             />
             <div className="hidden sm:block">
               <div className="text-sm font-semibold leading-tight">

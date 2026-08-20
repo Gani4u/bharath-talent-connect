@@ -1,6 +1,7 @@
 import { ArrowLeft, BookOpen, Calendar, Clock, Share2 } from "lucide-react";
 import { articles } from "@/data/articles";
 import { Button } from "@/components/ui/button";
+import PageSEO from "@/components/common/PageSEO";
 
 interface GuideDetailProps {
   guideId: string;
@@ -41,8 +42,42 @@ export default function GuideDetail({ guideId }: GuideDetailProps) {
     }
   };
 
+  const canonicalUrl = `https://btcconsulting.in/guides/${normalizedId}`;
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://btcconsulting.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Guides",
+        "item": "https://btcconsulting.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": article.title,
+        "item": canonicalUrl
+      }
+    ]
+  };
+
   return (
-    <article className="bg-slate-50 py-16 text-foreground min-h-[85vh]">
+    <>
+      <PageSEO
+        title={`${article.title} | BTC Consulting`}
+        description={article.summary}
+        canonicalPath={`/guides/${normalizedId}`}
+        structuredData={breadcrumbSchema}
+      />
+      <article className="bg-slate-50 py-16 text-foreground min-h-[85vh]">
       <div className="mx-auto max-w-3xl px-6">
         
         {/* Back navigation */}
@@ -137,5 +172,6 @@ export default function GuideDetail({ guideId }: GuideDetailProps) {
 
       </div>
     </article>
+    </>
   );
 }
