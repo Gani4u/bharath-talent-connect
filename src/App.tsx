@@ -1,14 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
-
-import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Footer from "./components/layout/Footer";
-import Openings from "./components/sections/Openings";
-import Countries from "./components/sections/Countries";
-import Process from "./components/sections/Process";
-import WhyChoose from "./components/sections/WhyChoose";
-import Contact from "./components/sections/Contact";
-import { FloatingWhatsApp } from "./components/common/FloatingWhatsApp";
+import Footer from "@/components/layout/Footer";
+import Router from "@/components/common/Router";
+import { FloatingWhatsApp } from "@/components/common/FloatingWhatsApp";
 
 function App() {
   return (
@@ -16,14 +9,9 @@ function App() {
       <Navbar />
 
       <main>
-        <Hero />
-        <About />
-        <Openings />
-        <Countries />
-        <Process />
-        <WhyChoose />
-        <Contact />
+        <Router />
       </main>
+
       <Footer />
 
       {/* Floating WhatsApp overlay */}

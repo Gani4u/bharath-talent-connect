@@ -24,6 +24,10 @@ export const navigation = [
     href: "why",
   },
   {
+    title: "Business Consulting",
+    href: "business-consulting",
+  },
+  {
     title: "Contact",
     href: "contact",
   },

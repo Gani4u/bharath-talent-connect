@@ -46,10 +46,7 @@ export default function About() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Bharath Talent Connect Consultancy helps skilled professionals
-            connect with verified employers across Africa, Gulf countries
-            and Europe through ethical recruitment, transparent processes,
-            and long-term employer relationships.
+            Bharath Talent Connect Consultancy helps skilled professionals connect with verified employers across Africa, Gulf countries, and Europe, while offering pragmatic business consulting to help enterprises optimize operations, improve margins, and scale profitably.
           </p>
 
         </div>

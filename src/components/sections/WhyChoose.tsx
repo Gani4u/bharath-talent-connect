@@ -59,9 +59,7 @@ export default function WhyChoose() {
           </h2>
 
           <p className="mx-auto mt-5 max-w-3xl text-lg text-slate-600">
-            Bharath Talent Connect bridges skilled professionals with trusted
-            international employers through a transparent and efficient
-            recruitment process.
+            Bharath Talent Connect bridges skilled professionals with trusted international employers, while helping organizations transform and scale with dedicated business improvement consulting.
           </p>
 
         </div>

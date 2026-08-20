@@ -25,11 +25,7 @@ export default function Footer() {
             />
 
             <p className="text-slate-300 leading-7">
-
-              Bharath Talent Connect Consultancy connects
-              skilled professionals with trusted employers
-              across Africa, Gulf countries and Europe.
-
+              Bharath Talent Connect Consultancy provides global recruitment solutions and business transformation consulting to help candidates build careers and enterprises optimize operations.
             </p>
 
           </div>
@@ -46,9 +42,12 @@ export default function Footer() {
 
                 <Mail size={18} />
 
-                <span>
-                  bharattalentconnect@gmail.com
-                </span>
+                <a
+                  href="mailto:info@btcconsulting.in"
+                  className="hover:text-secondary transition-colors"
+                >
+                  info@btcconsulting.in
+                </a>
 
               </div>
 

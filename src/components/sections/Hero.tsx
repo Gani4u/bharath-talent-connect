@@ -38,11 +38,7 @@ export default function Hero() {
           </h1>
 
           <p className="mb-8 max-w-xl text-lg leading-8 text-slate-600">
-
-            Bharath Talent Connect Consultancy helps skilled professionals
-            connect with verified employers across Africa, the Gulf,
-            and Europe through transparent recruitment and dedicated support.
-
+            Bharath Talent Connect Consultancy connects skilled professionals with international employers, while providing strategic business consulting to help enterprises optimize and scale.
           </p>
 
           <div className="flex flex-wrap gap-4">

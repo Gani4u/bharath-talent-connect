@@ -58,7 +58,9 @@ export default function Contact() {
             </h3>
 
             <p className="mt-3 text-slate-300 break-all">
-              bharattalentconnect@gmail.com
+              <a href="mailto:info@btcconsulting.in" className="hover:text-secondary transition-colors">
+                info@btcconsulting.in
+              </a>
             </p>
 
           </div>

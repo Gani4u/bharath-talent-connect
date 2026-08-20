@@ -100,7 +100,3 @@ body {
       #ffffff,
       #f8fbff);
 }
-
-section:nth-child(even) {
-  background: #ffffff;
-}

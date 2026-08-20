@@ -1,3 +1,4 @@
+import React from 'react'
 import { Menu } from 'lucide-react'
 import { navigation } from '@/data/navigation'
 import { site } from '@/constants/site'
@@ -6,6 +7,17 @@ import { Link } from 'react-scroll'
 import logo from "../../assets/logos/btc-logo.png";
 
 export default function Navbar() {
+  const isHome = typeof window !== 'undefined' && (window.location.pathname === '/' || window.location.pathname === '/index.html');
+
+  const handleNavClick = (to: string, e: React.MouseEvent) => {
+    if (!isHome) {
+      e.preventDefault();
+      sessionStorage.setItem("scrollToSection", to);
+      window.history.pushState(null, "", "/");
+      window.dispatchEvent(new PopStateEvent("popstate"));
+    }
+  };
+
   return (
     <header className="sticky top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
@@ -13,6 +25,7 @@ export default function Navbar() {
           to="home"
           smooth={true}
           duration={500}
+          onClick={(e: React.MouseEvent) => handleNavClick("home", e)}
           className="cursor-pointer"
         >
           <div className="flex items-center gap-3">
@@ -29,7 +42,7 @@ export default function Navbar() {
                 {site.name}
               </div>
               <div className="text-xs text-muted-foreground leading-tight">
-                Global Recruitment
+                Recruitment & Consulting
               </div>
             </div>
           </div>
@@ -43,6 +56,7 @@ export default function Navbar() {
               smooth={true}
               duration={500}
               offset={-80}
+              onClick={(e: React.MouseEvent) => handleNavClick(item.href, e)}
               className="cursor-pointer text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
             >
               {item.title}

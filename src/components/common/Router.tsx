@@ -5,13 +5,14 @@ import Openings from "@/components/sections/Openings";
 import Countries from "@/components/sections/Countries";
 import Process from "@/components/sections/Process";
 import WhyChoose from "@/components/sections/WhyChoose";
-import Resources from "@/components/sections/Resources";
+// import Resources from "@/components/sections/Resources";
 import Contact from "@/components/sections/Contact";
 import JobDetail from "@/components/sections/JobDetail";
 import GuideDetail from "@/components/sections/GuideDetail";
 import NotFound from "@/components/sections/NotFound";
 import Consulting from "@/components/sections/Consulting";
 import PageSEO from "@/components/common/PageSEO";
+import BusinessConsulting from "@/components/sections/BusinessConsulting";
 
 const homeStructuredData = [
   {
@@ -150,7 +151,8 @@ export default function Router() {
         <Countries />
         <Process />
         <WhyChoose />
-        <Resources />
+        {/* <Resources /> */}
+        <BusinessConsulting id="business-consulting" />
         <Contact />
       </>
     );
