@@ -147,12 +147,12 @@ export default function Router() {
         />
         <Hero />
         <About />
+        <BusinessConsulting id="business-consulting" />
         <Openings />
         <Countries />
         <Process />
         <WhyChoose />
         {/* <Resources /> */}
-        <BusinessConsulting id="business-consulting" />
         <Contact />
       </>
     );

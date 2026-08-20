@@ -62,10 +62,11 @@ const solutionAreas: SolutionArea[] = [
 ];
 
 const steps = [
-  { label: "Diagnose", desc: "Identify opportunities" },
-  { label: "Prioritize", desc: "Focus on high-value areas" },
-  { label: "Improve", desc: "Implement pragmatic changes" },
-  { label: "Measure", desc: "Track performance & ROI" }
+  { letter: "P", name: "Probe", label: "DIAGNOSE", desc: "Understand the business." },
+  { letter: "R", name: "Reframe", label: "PRIORITIZE", desc: "Identify the highest-value opportunities." },
+  { letter: "I", name: "Ignite", label: "DESIGN", desc: "Develop practical solutions." },
+  { letter: "S", name: "Steer", label: "IMPLEMENT", desc: "Work with your team to execute." },
+  { letter: "M", name: "Multiply", label: "MEASURE & SUSTAIN", desc: "Track business results and sustain." }
 ];
 
 interface BusinessConsultingProps {
@@ -125,29 +126,54 @@ export default function BusinessConsulting({ id = "business-consulting", isSubpa
 
         {/* "How We Help" Micro Section */}
         <div className="mt-20 border-t border-slate-100 pt-16">
-          <div className="mx-auto max-w-3xl text-center">
-            <h3 className="text-sm font-semibold tracking-wider text-slate-400 uppercase">
-              Our Methodology
+          <div className="mx-auto max-w-5xl text-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 font-semibold text-primary uppercase text-xs tracking-wider mb-4">
+              How We Work - Our Methodology
+            </span>
+            <h3 className="text-3xl font-extrabold text-foreground tracking-tight mb-8">
+              The BTC PRISM Approach
             </h3>
             
-            {/* Minimal Horizontal Process Flow */}
-            <div className="mt-8 grid gap-4 grid-cols-2 md:grid-cols-4">
+            {/* PRISM horizontal layout */}
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
               {steps.map((step, idx) => (
-                <div key={step.label} className="relative flex flex-col items-center p-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-sm font-bold text-slate-700 mb-3 border border-slate-200">
-                    {idx + 1}
+                <div 
+                  key={step.letter} 
+                  className="relative rounded-3xl border border-slate-150 bg-slate-50/50 p-6 flex flex-col items-center text-center shadow-xs"
+                >
+                  {/* Big Letter Circle */}
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-white text-2xl font-black mb-4 shadow-sm">
+                    {step.letter}
                   </div>
-                  <span className="text-base font-bold text-slate-800">{step.label}</span>
-                  <span className="text-xs text-slate-500 text-center mt-1 hidden sm:block">{step.desc}</span>
-                  
-                  {/* Arrow Indicator */}
-                  {idx < 3 && (
-                    <div className="absolute top-9 -right-2 text-slate-300 hidden md:block select-none">
+
+                  {/* Step Phase Banner style */}
+                  <div className="bg-secondary/15 text-secondary text-xs font-bold uppercase px-3 py-1 rounded-full mb-3">
+                    {step.name}
+                  </div>
+
+                  {/* Step Label (e.g. DIAGNOSE) */}
+                  <h4 className="text-sm font-black text-slate-800 tracking-wider">
+                    {step.label}
+                  </h4>
+
+                  {/* Step description */}
+                  <p className="mt-2 text-xs text-slate-500 leading-relaxed max-w-[200px]">
+                    {step.desc}
+                  </p>
+
+                  {/* Arrow for Desktop */}
+                  {idx < 4 && (
+                    <div className="absolute top-1/2 -right-3.5 -translate-y-1/2 text-slate-300 hidden lg:block select-none z-10">
                       <ArrowRight size={18} />
                     </div>
                   )}
                 </div>
               ))}
+            </div>
+
+            {/* Tagline Banner */}
+            <div className="mt-8 inline-block rounded-full bg-slate-100 px-6 py-2.5 text-sm font-medium text-slate-700 border border-slate-200">
+              We don't stop at recommendations. We help implement the change and sustain.
             </div>
           </div>
         </div>

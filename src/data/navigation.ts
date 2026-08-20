@@ -8,6 +8,10 @@ export const navigation = [
     href: "about",
   },
   {
+    title: "Business Consulting",
+    href: "business-consulting",
+  },
+  {
     title: "Hot Jobs",
     href: "jobs",
   },
@@ -22,10 +26,6 @@ export const navigation = [
   {
     title: "Why Us",
     href: "why",
-  },
-  {
-    title: "Business Consulting",
-    href: "business-consulting",
   },
   {
     title: "Contact",
