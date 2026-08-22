@@ -1,0 +1,23 @@
+{
+  "name": "BTC — Business Transformation Consulting",
+  "short_name": "BTC",
+  "description": "Business Transformation Consulting and Global Manpower Solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#034E8A",
+  "icons": [
+    {
+      "src": "/imresizer-btc-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/imresizer-btc-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

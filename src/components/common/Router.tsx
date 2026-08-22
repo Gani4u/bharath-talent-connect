@@ -82,14 +82,74 @@ const homeStructuredData = [
   },
   {
     "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Manpower Recruitment & Staffing",
-    "provider": {
-      "@type": "Organization",
-      "name": "btcconsulting — Bharat-Talent-Connect Consultancy",
-      "url": "https://btcconsulting.in/"
+    "@type": "ProfessionalService",
+    "name": "BTC — Business Transformation Consulting",
+    "image": "https://btcconsulting.in/imresizer-btc-logo.jpg",
+    "@id": "https://btcconsulting.in/#organization",
+    "url": "https://btcconsulting.in/",
+    "telephone": "+91-70992-14505",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Rajasthan",
+      "addressCountry": "IN"
     },
-    "description": "Vetted and compliant manpower solutions for industries including Logistics, Construction, Manufacturing, and Engineering."
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.9124,
+      "longitude": 75.7873
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What services does BTC (Business Transformation Consulting) offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BTC offers comprehensive business management consulting for MSMEs, including Business Growth strategy, Profit Improvement, Cost Optimization, Process Standardization, Productivity Improvement, Working Capital Optimization, Supply Chain Management, and Executive Management Review Systems."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does BTC improve profitability and productivity for MSMEs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BTC utilizes the PRISM methodology (Probe, Reframe, Ignite, Steer, Multiply) alongside a 2–4 week Business Performance Diagnostic to identify operational leakages, optimize cost structures, and implement sustained SOPs and KPI review routines."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What recruitment and manpower services are provided by btcconsulting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "btcconsulting (Bharat-Talent-Connect Consultancy) provides international talent acquisition and manpower sourcing, connecting skilled Indian technicians, supervisors, retail managers, and engineers with verified global employers across Africa, the Middle East, and Europe."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there any recruitment fee charged to employers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, btcconsulting provides zero-fee candidate sourcing pipelines for verified global employers, ensuring fully compliant and streamlined hiring."
+        }
+      }
+    ]
   }
 ];
 

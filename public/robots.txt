@@ -1,3 +1,43 @@
+# Robots.txt for BTC (Business Transformation Consulting) & btcconsulting
+# Website: https://btcconsulting.in
+
 User-agent: *
 Allow: /
+
+# Google Search Crawler
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Microsoft Bing, Edge, Yahoo, DuckDuckGo Crawler
+User-agent: Bingbot
+Allow: /
+
+# Brave Browser & Brave Search Crawler
+User-agent: Bravebot
+Allow: /
+
+# Apple Safari, Siri & Spotlight Suggestions Crawler
+User-agent: Applebot
+Allow: /
+
+# DuckDuckGo Crawler
+User-agent: DuckDuckBot
+Allow: /
+
+# Yahoo Search Crawler
+User-agent: Slurp
+Allow: /
+
+# Yandex Search Crawler
+User-agent: YandexBot
+Allow: /
+
+# Baidu Search Crawler
+User-agent: Baiduspider
+Allow: /
+
+# Canonical Sitemap Declaration
 Sitemap: https://btcconsulting.in/sitemap.xml
