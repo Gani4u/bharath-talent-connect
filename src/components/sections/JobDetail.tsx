@@ -255,7 +255,7 @@ export default function JobDetail({ jobId }: JobDetailProps) {
   }
 
   const whatsappMessage = encodeURIComponent(
-    `Hi, I am interested in applying for the ${job.title} roles (such as ${job.subRoles[0].profile} for ${job.subRoles[0].company}) at Bharat Talent Connect. Please guide me.`
+    `Hi, I am interested in applying for the ${job.title} roles (such as ${job.subRoles[0].profile} for ${job.subRoles[0].company}) through btcconsulting (Bharat-Talent-Connect Consultancy). Please guide me.`
   );
 
   const canonicalUrl = `https://btcconsulting.in/jobs/${normalizedId}`;
@@ -308,7 +308,7 @@ export default function JobDetail({ jobId }: JobDetailProps) {
     "employmentType": "FULL_TIME",
     "hiringOrganization": {
       "@type": "Organization",
-      "name": "Bharat Talent Connect Consultancy",
+      "name": "btcconsulting — Bharat-Talent-Connect Consultancy",
       "sameAs": "https://btcconsulting.in/",
       "logo": "https://btcconsulting.in/imresizer-btc-logo.jpg"
     },

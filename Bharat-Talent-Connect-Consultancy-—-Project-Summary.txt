@@ -1,0 +1,74 @@
+========================================================================
+BHARAT TALENT CONNECT CONSULTANCY (BTC) — PROJECT SUMMARY
+========================================================================
+
+Bharat Talent Connect Consultancy (BTC) is a premier dual-vertical business platform
+designed to support the growth, operational excellence, and talent acquisition needs
+of growing enterprises (MSMEs) and international employers. 
+
+Originating from the extensive business advisory background of its sister firm,
+CB4 Consulting Services Pvt. Ltd. (which now focuses exclusively on IT Services),
+BTC operates as a high-value advisory partner providing two complementary business
+offerings:
+
+------------------------------------------------------------------------
+1. FLAGSHIP VERTICAL: BUSINESS MANAGEMENT CONSULTING (70% Focus)
+------------------------------------------------------------------------
+BTC provides executive-level management consulting targeted at improving profitability, 
+efficiency, operations, and scalability for MSMEs and growing businesses. 
+
+Core Solutions:
+* Business Growth: Developing frameworks to grow top-line revenue profitably.
+* Profit Improvement: Systematic margin opportunity identification and capture.
+* Cost Optimization: Elimination of operational leaks and non-value-added costs.
+* Process Improvement: Streamlining workflows to make operations faster and simpler.
+* Productivity Improvement: Maximizing output and utilization from existing resources.
+* Working Capital: Releasing locked cash from inventory and accounts receivable.
+* Supply Chain: Advanced planning, inventory management, and supplier optimization.
+* Management Systems: Deploying KPI dashboards and management reporting routines.
+
+Start-Up Engagement:
+* Business Performance Diagnostic: A structured 2-to-4 week assessment evaluating
+  current operations. Key deliverables include:
+  - Business Health Scorecard
+  - Top 10 Improvement Opportunities
+  - Prioritized Action Plan
+  - 90-Day Transformation Roadmap
+
+Consulting Methodology — The BTC PRISM Approach:
+* Probe (Diagnose): Thoroughly understand the business model and challenges.
+* Reframe (Prioritize): Pinpoint the highest-leverage value opportunities.
+* Ignite (Design): Architect practical, customized solutions.
+* Steer (Implement): Work hand-in-hand with internal teams to deploy changes.
+* Multiply (Measure & Sustain): Track quantitative results and institutionalize improvement.
+
+------------------------------------------------------------------------
+2. SECONDARY VERTICAL: GLOBAL RECRUITMENT & MANPOWER (30% Focus)
+------------------------------------------------------------------------
+BTC maintains its robust, established placement network connecting skilled Indian
+professionals and vetted work-ready talent with international employers across 
+Africa, Gulf countries (Middle East), and Europe.
+
+Employer Value Proposition:
+* No cost to employers.
+* No-obligation candidate profile sharing.
+* Access to a verified, extensive Indian talent database.
+* Comprehensive recruitment support: requirement analysis, sourcing, screening,
+  verification, profile sharing, and international deployment.
+
+Talent Categories Covered:
+* Management & Admin: Production Managers, HR, Finance, and Supervisors.
+* Engineering & Technical: Mechanical, Electrical, Welders, Fabricators, Operators.
+* Operations & Support: Drivers, General Workers, and Skilled Trades.
+* Hospitality: Professional Chefs and Hospitality Staff.
+
+========================================================================
+WEBSITE AND TECHNICAL ARCHITECTURE
+========================================================================
+The portal is engineered on a modern SPA framework:
+* Frontend: React, Vite, TypeScript, and Tailwind CSS.
+* Animations: Restricted, premium transition language (fade, translate offset, hover)
+  using Framer Motion, respecting user preferences (prefers-reduced-motion).
+* Deployments: Fully configured for GitHub Pages with custom-domain mapping.
+* SEO Strategy: Highly optimized meta-descriptions, Open Graph structures, and 
+  dynamic JSON-LD schemas representing both business verticals.

@@ -1,15 +1,17 @@
 // Site Name, Tagline, Email, Phone, WhatsApp, Address, Social Links, Copyright, Company Description
 export const site = {
-  name: "Bharath Talent Connect Consultancy",
+  name: "BTC — Business Transformation Consulting",
 
-  shortName: "BTC Consultancy",
+  secondaryName: "btcconsulting (Bharat-Talent-Connect Consultancy)",
 
-  tagline: "Connecting Indian Talent with Global Opportunities.",
+  shortName: "BTC",
+
+  tagline: "Business Growth. Global Talent. One Trusted Partner.",
 
   description:
-    "Helping skilled Indian professionals connect with trusted international employers across Africa, the Gulf, Europe and beyond.",
+    "BTC helps growing businesses improve profitability, productivity, and operational excellence, while btcconsulting connects international employers with skilled Indian talent.",
 
-  email: "contact@bharathtalentconnect.com",
+  email: "info@btcconsulting.in",
 
   phone: "+91 70992 14505",
 
@@ -17,5 +19,5 @@ export const site = {
 
   location: "Rajasthan, India",
 
-  copyright: "© 2026 Bharath Talent Connect Consultancy. All Rights Reserved.",
+  copyright: "© 2026 BTC (Business Transformation Consulting) & btcconsulting. All Rights Reserved.",
 };

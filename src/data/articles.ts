@@ -21,7 +21,7 @@ export const articles: Article[] = [
       "2. Hydraulics & Pneumatics: For forklift and crane mechanics, deep knowledge of hydraulic pumps, valves, cylinders, and pneumatic air brake systems is absolutely critical.",
       "3. Preventive Maintenance: Employers prioritize candidates who can proactively identify issues before breakdowns occur. This includes performing fluid analysis, conducting structural checks, and maintaining detailed digital service logs.",
       "4. Safety Certifications: Familiarity with international workplace safety standards (such as OSHA guidelines or standard workshop safety rules) is highly valued.",
-      "By partnering with Bharat Talent Connect Consultancy, skilled mechanics receive dedicated support to translate their local workshop experience into verified international placements."
+      "By partnering with btcconsulting (Bharat-Talent-Connect Consultancy), skilled mechanics receive dedicated support to translate their local workshop experience into verified international placements."
     ]
   },
   {
@@ -53,7 +53,7 @@ export const articles: Article[] = [
       "2. Staff Training & Motivation: A store manager is only as good as their team. Detail your experience in onboarding new cashiers/sales representatives, scheduling shifts fairly, and running morning briefing sessions to motivate staff.",
       "3. Visual Merchandising: Global retailers maintain strict standards for product layouts. Emphasize your ability to read planograms, execute promotional window displays, and optimize high-traffic shelf placements.",
       "4. Customer Conflict Resolution: Handling escalations gracefully is a primary duty. Be prepared to explain how you resolve customer complaints while protecting the store's reputation and policies.",
-      "Bharat Talent Connect Consultancy connects experienced retail supervisors and managers with leading retail groups internationally, offering complete visa and placement support."
+      "Through btcconsulting (Bharat-Talent-Connect Consultancy), experienced retail supervisors and managers connect with leading retail groups internationally, receiving complete visa and placement support."
     ]
   }
 ];

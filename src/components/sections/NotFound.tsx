@@ -11,8 +11,8 @@ export default function NotFound() {
   return (
     <div className="bg-slate-50 py-24 text-foreground min-h-[75vh] flex items-center justify-center">
       <PageSEO
-        title="Page Not Found | BTC Consulting"
-        description="The page you are looking for does not exist on Bharat Talent Connect Consultancy."
+        title="Page Not Found | BTC — Business Transformation Consulting"
+        description="The page you are looking for does not exist on BTC."
         canonicalPath="/404"
         robots="noindex, nofollow"
       />

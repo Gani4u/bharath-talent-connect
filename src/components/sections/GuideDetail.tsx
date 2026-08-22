@@ -148,7 +148,7 @@ export default function GuideDetail({ guideId }: GuideDetailProps) {
             <BookOpen className="mx-auto text-primary mb-4" size={32} />
             <h3 className="text-xl font-bold text-foreground">Looking for Opportunities Abroad?</h3>
             <p className="mt-3 text-slate-600 max-w-lg mx-auto text-sm leading-6">
-              Our verified recruiters at Bharat Talent Connect Consultancy specialize in matching candidates with top employers across Africa, the Gulf, and Europe.
+              Our verified recruiters at btcconsulting (Bharat-Talent-Connect Consultancy) specialize in matching candidates with top employers across Africa, the Gulf, and Europe.
             </p>
             <div className="mt-6 flex justify-center gap-4 flex-wrap">
               <a href="/contact">

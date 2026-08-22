@@ -11,8 +11,8 @@ export default function Consulting() {
   return (
     <div className="bg-slate-50 py-16 text-foreground min-h-[85vh]">
       <PageSEO
-        title="Business Transformation & Management Consulting | BTC Consulting"
-        description="Premium business consulting and transformation services by BTC Consulting - helping MSMEs grow profitably, optimize costs, improve productivity, and build KPI dashboards."
+        title="Business Transformation & Management Consulting | BTC"
+        description="Flagship business management consulting and transformation services by BTC — helping MSMEs grow profitably, optimize costs, improve productivity, and build KPI dashboards."
         canonicalPath="/consulting"
       />
 

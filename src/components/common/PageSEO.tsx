@@ -67,7 +67,7 @@ export default function PageSEO({
     if (keywords) {
       updateMeta("keywords", keywords);
     } else {
-      updateMeta("keywords", "Bharat Talent Connect, recruitment consultancy India, staffing consultancy India, recruitment agency India, global hiring, manpower recruitment");
+      updateMeta("keywords", "BTC Business Transformation Consulting, btcconsulting, Bharat-Talent-Connect Consultancy, business management consulting, MSME consulting, operational excellence, profit improvement, cost optimization, international recruitment, manpower recruitment, Indian manpower");
     }
     updateMeta("robots", robots || "index, follow, max-image-preview:large");
     updateLink("canonical", `https://btcconsulting.in${canonicalPath}`);
@@ -78,7 +78,7 @@ export default function PageSEO({
     updateMeta("og:url", `https://btcconsulting.in${canonicalPath}`, true);
     updateMeta("og:type", ogType || "website", true);
     updateMeta("og:image", ogImage || "https://btcconsulting.in/imresizer-btc-logo.jpg", true);
-    updateMeta("og:site_name", "Bharat Talent Connect Consultancy", true);
+    updateMeta("og:site_name", "BTC — Business Transformation Consulting", true);
 
     // 4. Set Twitter Card Tags
     updateMeta("twitter:card", twitterCard || "summary_large_image");
